@@ -13,9 +13,10 @@ It assumes that the following variables are set:
 PROMC
 PYTHIA8
 CLHEP
+ROOTSYS
 ```
 
-Look at the Makefile.
+Look at the Makefile. Generally, ROOT is not needed, but we keep it for some tests. 
 In order to insert data models  (used to fill events), make sure your have a soft link "proto" to the directory
 where proto files are  located.
 
